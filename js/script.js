@@ -154,6 +154,10 @@ function locomotive() {
     scroll2page2.onclick = () => {
         scroll.scrollTo(".page2");
     }
+    const scroll2page3 = document.querySelector(".page2 #scroll-down");
+    scroll2page3.onclick = () => {
+        scroll.scrollTo(".page3");
+    }
 }
 
 function scroll_Trigger() {

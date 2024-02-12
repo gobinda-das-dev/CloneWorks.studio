@@ -215,6 +215,7 @@ nav a {
     bottom: 20px;
     filter: invert(100%);
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 .page2>div {
