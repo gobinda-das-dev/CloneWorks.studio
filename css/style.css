@@ -190,6 +190,7 @@ nav a {
 
 /* --------Page2--------- */
 .page2 {
+    position: relative;
     height: 100vh;
     width: 100%;
     background-color: white;
