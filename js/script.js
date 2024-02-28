@@ -122,7 +122,10 @@ function locomotive() {
 
     const scroll = new LocomotiveScroll({
         el: document.querySelector("main"),
-        smooth: true
+        smooth: true,
+        mobile: { smooth: true },
+        tablet: { smooth: true },
+        smartphone: { smooth: true },
     });
 
     scroll.on("scroll", ScrollTrigger.update);
@@ -202,7 +205,7 @@ function scroll_Trigger() {
             },
         }, "01")
         .to("nav", {
-            padding: "10px 55px",
+            padding: "10px 25px",
             // duration: 1,
             ease: "power4.out",
             scrollTrigger: {

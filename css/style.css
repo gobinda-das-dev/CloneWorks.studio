@@ -475,8 +475,12 @@ footer .bottom a {
         padding: 25px 30px;
     }
 
+    nav ul {
+        gap: 1vw;
+    }
+
     nav a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .cross {
