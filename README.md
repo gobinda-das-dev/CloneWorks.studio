@@ -1,4 +1,3 @@
-<a href="https://gobinda-das-dev.github.io/CloneWorks.studio/">Live Link</a>
 # About the project
 => Clone of <a href="https://works.studio/">works.studio</a>.
 
